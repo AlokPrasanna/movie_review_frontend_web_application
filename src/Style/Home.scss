@@ -1,0 +1,93 @@
+@import "Colors.scss";
+@import 'PageAlignments';
+
+.home-page {
+    background-color: $page-background-color;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+}
+
+.genre-language {
+    display: flex;
+}
+
+.genre-list {
+    display: flex;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+select {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.not-found-lan{
+    margin-top: 5px;
+}
+
+.not-found-lan:hover{
+    background-color: #333;
+    border: #fff;
+}
+
+option {
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    background-color: #202020;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar-language {
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text-area {
+    width: 300px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: wheat;
+    background-color: #202020;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-left: 10px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.suggestions-list, .not-found-lan {
+    position: absolute;
+    top: 100%;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #202020;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    margin-left: 20px;
+    z-index: 2;
+}
+
+.related-lan-list {
+    list-style: none;
+    //margin-left: 20px;
+}

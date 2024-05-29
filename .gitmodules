@@ -1,0 +1,3 @@
+[submodule "Movies-Review-Site"]
+	path = Movies-Review-Site
+	url = https://github.com/AlokPrasanna/Movies-Review-Site.git

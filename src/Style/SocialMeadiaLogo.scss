@@ -1,0 +1,14 @@
+.img{
+    width: 32px;      // Set the width to match the image width
+    height: 32px;     // Set the height to match the image height
+    padding: 1px;
+    margin-right: 10px;
+    border-radius: 16px;
+    background-color:white; 
+    z-index: 2;
+}
+.img:hover{
+    z-index: 2;
+    transform: scale(1.2);
+}
+

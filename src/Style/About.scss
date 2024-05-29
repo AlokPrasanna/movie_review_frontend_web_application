@@ -1,0 +1,27 @@
+// About.scss
+
+@import "Colors";
+@import 'PageAlignments';
+
+// Define styles for the about page
+.about-page {
+    background-color: $page-background-color;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+
+    h1 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        color: white;
+        font-size: 1.2rem;
+        max-width: 1000px; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0 auto; 
+    }
+}

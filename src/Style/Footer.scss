@@ -1,0 +1,41 @@
+
+@import "Colors.scss";
+@import "FontStyle.scss";
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 30vh;
+  position: relative;
+  }
+  
+  footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  hr{
+    border-color: black;
+    background-color: white;
+    height: 3px;
+    border-radius: 1px;
+  }
+  hr:hover{
+    background-color: red;
+  }
+
+.icon{
+    display: flex;
+    justify-content: center; 
+    align-items:0;      
+}
+
+.copy-right{
+    font-size: map-get($phara-style,size );
+    color: $font-color;
+    text-align: center;
+    padding: 10px;
+}
+
+

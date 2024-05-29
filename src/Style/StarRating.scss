@@ -1,0 +1,22 @@
+input[type="radio"] {
+    display: none;
+
+  }
+label {
+    cursor: pointer;
+  
+    &:hover {
+      color: yellow;
+    }
+  }
+  
+  /* Styling for the checked stars */
+  input[type="radio"]:checked + label {
+    color: yellow;
+  }
+
+  .swal-confirm-button {
+    border: none;
+    border-color: green;
+}
+ 

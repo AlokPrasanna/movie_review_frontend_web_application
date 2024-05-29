@@ -1,0 +1,53 @@
+
+  .popular{
+    height:600px;
+  }  
+
+  .image-popular{
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+    
+    .overlay-popular {
+      position: absolute;
+      color: white;
+      padding: 5rem;
+      bottom: 0px;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: flex-end;
+      align-items: flex-start;
+      opacity: 0;
+      background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+      transition: opacity .3s;
+      }
+    .overlay-popular:hover {
+      opacity: 1;
+    }
+      .title-popular {
+          font-weight: 900;
+          font-size: 4rem;
+          margin-bottom: 0.4rem;
+          text-align: left;
+      }
+      
+      .overview-popular{
+      font-style: italic;
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+      display: flex;
+      text-align: left;
+      width: 50%;
+      }
+      .release-date-popular{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+  
+
+  

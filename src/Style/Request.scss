@@ -1,0 +1,10 @@
+@import "Colors";
+@import 'PageAlignments';
+
+
+.request-page{
+    background-color:$page-background-color;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+
+}

@@ -1,0 +1,25 @@
+@import 'FontStyle';
+@import 'Colors';
+
+.category-list {
+  position: relative;
+
+  &:hover .categories{
+    display: block;
+    ul{
+      margin-top:45px;
+      list-style: none;
+      text-align: left;
+      background-color:$page-background-color;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: $function-color 1px solid;
+    }
+  }
+
+  .categories {
+    display: none;
+    position: absolute;
+  }
+}

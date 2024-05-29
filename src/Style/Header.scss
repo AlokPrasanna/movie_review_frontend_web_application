@@ -1,0 +1,60 @@
+@import 'Colors';
+@import 'FontStyle';
+
+.header{
+    font-weight: map-get($topic-style, bold);
+    font-family: $font-family;
+    align-content: center;
+    padding: 10px;
+}
+
+.app-name{
+    font-size: map-get($topic-style, size );
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-align: left;  
+    margin-right: auto;
+    z-index: 1; 
+}
+.nav-bar{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+a {
+    text-decoration: none; 
+    color: $font-color;     
+    font-size: map-get($phara-style, size); 
+    padding: 10px;
+    cursor: pointer;  
+  }
+  .nav-bar:before {
+    content: '';
+    position: absolute;
+    margin-top: 7px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: 0px;
+    left:0%;
+    transition: width 0.3s ease-in-out;
+}
+
+.app-name:hover{
+    color:black;
+    z-index: 2;
+}
+
+a:hover {
+    color: red; 
+}
+
+.nav-bar:hover::before {
+    width: 100%;
+    left: 0;
+}

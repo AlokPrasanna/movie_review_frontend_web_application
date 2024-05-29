@@ -1,0 +1,13 @@
+@import "Colors";
+@import "FontStyle";
+
+.menu-link{
+  color: $font-color;
+  font-size: map-get($phara-style, size );
+  font-family: $font-family;
+  text-align: center;
+  margin-left: 20px;
+  padding: 10px;
+  font-weight: map-get($topic-style, bold );
+  cursor: pointer;
+}

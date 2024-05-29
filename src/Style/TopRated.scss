@@ -1,0 +1,22 @@
+@import "Colors";
+@import 'PageAlignments';
+
+
+.top-rated-movies{
+    background-color:$page-background-color;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.loading-text {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
